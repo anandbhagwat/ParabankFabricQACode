@@ -13,15 +13,15 @@ test.describe('User Registration', () => {
         // Navigate to registration page
         await page.goto('/parabank/register.htm');
         
-        // Fill registration form
+        // Fill registration form with personal information
         await registerPage.fillRegistrationForm({
-            firstName: 'John',
-            lastName: 'Doe',
-            address: '123 Main St',
-            city: 'New York',
-            state: 'NY',
-            zipCode: '10001',
-            phone: '1234567890',
+            firstName: 'Anand',
+            lastName: 'Bhagwat',
+            address: 'Kharadi',
+            city: 'Pune',
+            state: 'Maharashtra',
+            zipCode: '411014',
+            phone: '9876543210',
             ssn: '123-45-6789',
             username: username,
             password: 'password123'
