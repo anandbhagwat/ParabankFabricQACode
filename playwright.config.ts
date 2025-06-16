@@ -14,8 +14,16 @@ export default defineConfig({
   },
   projects: [
     {
-      name: 'chromium',
-      use: { ...devices['Desktop Chrome'] },
+      name: 'firefox',
+      use: { ...devices['Desktop Firefox'] },
+      testMatch: /.*\.spec\.ts/,
+    },
+    {
+      name: 'api',
+      testMatch: /.*\.api\.ts/,
+      use: {
+        baseURL: 'http://parabank.parasoft.com/parabank',
+      },
     },
   ],
 }); 

@@ -1,0 +1,40 @@
+{
+    "defaultUser": {
+        "firstName": "Anand",
+        "lastName": "Bhagwat",
+        "address": "Kharadi",
+        "city": "Pune",
+        "state": "Maharashtra",
+        "zipCode": "411014",
+        "phone": "9876543210",
+        "ssn": "123-45-6789",
+        "username": "anand_test_user",
+        "password": "password123"
+    },
+    "testUsers": [
+        {
+            "firstName": "John",
+            "lastName": "Doe",
+            "address": "123 Main St",
+            "city": "New York",
+            "state": "NY",
+            "zipCode": "10001",
+            "phone": "1234567890",
+            "ssn": "111-22-3333",
+            "username": "john_doe",
+            "password": "password123"
+        },
+        {
+            "firstName": "Jane",
+            "lastName": "Smith",
+            "address": "456 Oak Ave",
+            "city": "Los Angeles",
+            "state": "CA",
+            "zipCode": "90001",
+            "phone": "9876543210",
+            "ssn": "444-55-6666",
+            "username": "jane_smith",
+            "password": "password123"
+        }
+    ]
+} 

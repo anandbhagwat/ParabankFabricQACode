@@ -1,0 +1,31 @@
+{
+    "defaultPayee": {
+        "name": "Test Payee",
+        "address": "123 Test St",
+        "city": "Test City",
+        "state": "Test State",
+        "zipCode": "12345",
+        "phone": "1234567890",
+        "accountNumber": "123456789"
+    },
+    "testPayees": [
+        {
+            "name": "Utility Company",
+            "address": "789 Power Ave",
+            "city": "Electric City",
+            "state": "EC",
+            "zipCode": "54321",
+            "phone": "5551234567",
+            "accountNumber": "UTIL123456"
+        },
+        {
+            "name": "Internet Provider",
+            "address": "456 Web St",
+            "city": "Digital City",
+            "state": "DC",
+            "zipCode": "67890",
+            "phone": "5559876543",
+            "accountNumber": "NET789012"
+        }
+    ]
+} 
